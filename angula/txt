@@ -1,0 +1,30 @@
+Anotações!!!
+
+O que é o DOM método que permitem acessar à árvore do nosso documento, para que eles possam alterar a estrutura, estilo e conteúdo do documento.
+
+Shadow Dom - encapsulamento - montar uma estrutura dentro da árvore do nosso decumento. Ele é capaz de manter a estrutura, estilo e comportamentos do documento ocultos e separados de outros cód na pág para que diferentes partes não entrem em conflito e o cód possa ser mantido lipo e agradável.
+
+Componentes é um conjunto de elemento html. obs: voce pode ter um estilo só para um componente.
+
+O que podemos ter dentro do nosso componente? Elemento, Style e Propriedades.
+
+
+Estrutura base 
+
+class TituloDinamico extends HTMLElement {
+    constructor(){
+        super();
+
+        const shadow = this.attachShadow({mode: "open"});
+    }
+}
+
+customElements.define('titulo-dinamico', TituloDinamico);
+
+
+obs: Os customElements precisa ter hífen no nome.
+
+Como ultilizar no HTML:
+
+<script src="src/components/nome do doc" defer></script>
+

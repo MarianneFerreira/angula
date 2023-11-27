@@ -39,6 +39,28 @@ class TituloDinamico extends HTMLElement {
 
 customElements.define("titulo-dinamico",TituloDinamico);
 
+COD DE UMA MANEIRA MAIS PROFISSIONAL 
+class cardNews extends HTMLElement {
+    constructor(){
+        super();
+
+        const shadow = this.attachShadow({mode:"open"});
+        shadow.innerHTML = "<h1>Heloo World</h1>";
+    }
+
+    build(){
+
+    }
+    
+    style(){
+
+
+    }
+
+}
+
+customElements.define("card-news",cardNews);
+
 
 
 

@@ -15,7 +15,7 @@ class cardNews extends HTMLElement {
         cardLeft.setAttribute("class","card__left");
 
         const autor = document.createElement("span");
-        autor.textContent =" by " + (this.getAttribute("autor") || "by Anonymous");
+        autor.textContent =" by " + (this.getAttribute("autor") || " Anonymous");
 
 
         const linkTitle = document.createElement("a");
@@ -45,7 +45,7 @@ class cardNews extends HTMLElement {
         return componentRoot;
     }
 
-    style(){
+    styles(){
         const style = document.createElement("style");
         style.textContent = `        
             .card{
@@ -82,8 +82,6 @@ class cardNews extends HTMLElement {
         
         `;
         return style;
-
-
     }
 
 }

@@ -71,7 +71,7 @@ class cardNews extends HTMLElement {
             
             .card__left > span {
                 font-weight: 400;
-                color:green;
+                color: rgb(17, 224, 17);
             }
             
             .card__left > h1{
@@ -83,6 +83,11 @@ class cardNews extends HTMLElement {
             
             .card__left > p{
                 color: white;
+            }
+
+            img{
+                width:250px;
+
             }
         
         

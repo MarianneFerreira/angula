@@ -50,12 +50,15 @@ class cardNews extends HTMLElement {
         style.textContent = `        
             .card{
                 width: 100%;
+                black
                 box-shadow: 2px 0px 0px 6px rgba(0,0,0,0.69);
                 -webkit-box-shadow: 2px 0px 0px 6px rgba(0,0,0,0.69);
                 -moz-box-shadow: 2px 0px 0px 6px rgba(0,0,0,0.69);
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
+                background-color:black;
+                text-decoration: none;
             }
             
             
@@ -68,15 +71,18 @@ class cardNews extends HTMLElement {
             
             .card__left > span {
                 font-weight: 400;
+                color:green;
             }
             
             .card__left > h1{
                 margin-top: 15px;
                 font-size: 25px;
+                color:white;
+                text-decoration: none;
             }
             
             .card__left > p{
-                color: rgba(70, 70, 70, 0.685);
+                color: white;
             }
         
         

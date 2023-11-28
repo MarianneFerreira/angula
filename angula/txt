@@ -71,3 +71,4 @@ Como ultilizar no HTML:
 <script src="src/components/nome do doc"></script>
 
 colocar o Defer para executa o documento na ordem correta.
+

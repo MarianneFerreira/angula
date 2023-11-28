@@ -5,3 +5,38 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: black;
+    height: 100vh;
+}
+
+
+
+
+
+footer {
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+/* rodapé*/
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid green;
+
+}
+
+footer .line-footer p i {
+    color: green;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    color: #fff;
+}
